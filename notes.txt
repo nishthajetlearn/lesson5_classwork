@@ -1,0 +1,36 @@
+1. data visualization 
+> importance 
+> visualization of the worldometer covid-19 data and ask if its eaier to interpret it in table to graphs 
+
+
+
+Here's a comprehensive approach to teaching data visualization using the Worldometer COVID-19 dataset. This includes creating a basic scatter plot, showcasing different styles, and plotting equations. Below is a step-by-step guide along with the code.
+
+1. Importance of Data Visualization
+Data visualization helps to:
+
+Simplify complex data, making it easier to interpret and understand.
+Highlight trends, patterns, and outliers in data.
+Facilitate better decision-making by providing a clear picture of the information at hand.
+You can ask students whether they find it easier to interpret data in tables or through graphs. Generally, graphs allow for quicker insights into trends compared to tables.
+
+2. Visualizing Worldometer COVID-19 Data
+Assuming you have already downloaded the relevant COVID-19 data into a CSV file (e.g., covid_data.csv), we can visualize this data. Here’s how to create a basic scatter plot:
+######################
+basic scatter plot , make a x-list and y-list values to get the plot ready .
+> basic structure of plot code 
+
+
+
+
+
+
+>show plot in various other shapes colors (b--, g^ , ro)
+> show them how to plot a equations on the screen 
+
+Summary of Code Components
+Loading Data: Use pd.read_csv() to load the dataset.
+Scatter Plot: Use plt.scatter() to create a scatter plot.
+Customizing Plots: Change marker styles and colors for better visualization.
+Plotting Equations: Calculate y values from an equation and plot it with plt.plot().
+This code provides a structured approach to visualizing the COVID-19 data, showing the importance of graphs over tables, and illustrates how to present equations visually. Let me know if you need any more help!
